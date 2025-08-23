@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#generateBtn{
+    padding: 5px 25px;
+    font-size: 3em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.label{
+    font-size: 3em;
+}
