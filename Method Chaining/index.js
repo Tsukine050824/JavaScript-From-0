@@ -1,3 +1,10 @@
+// Method Chaining
+// Format username: trim spaces, capitalize first letter, lowercase the rest
+// Example: "  jOhNDoE  " -> "Johndoe"
+// Steps: trim() -> charAt(0).toUpperCase() + slice(1).toLowerCase()
+// Without method chaining vs With method chaining
+// Prompt user for input
+
 let username = prompt("Enter your username: ");
 
 

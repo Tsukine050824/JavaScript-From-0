@@ -1,3 +1,15 @@
+// Number Guessing Game
+// User tries to guess a randomly generated number between 1 and 100
+// Input: user's guess via prompt
+// Output: feedback via alert (too high, too low, correct)
+// Steps: generate random number -> prompt user for guess -> check guess -> provide feedback -> repeat until correct
+// Note: Use Math.random() to generate random number, use while loop for repeated guessing
+// Example: random number = 42, user guesses 30 -> "Too low!", user guesses 50 -> "Too high!", user guesses 42 -> "Correct!"
+// Variables: randomNumber, guessed, attempts, running
+// Conditions: if guessed < randomNumber -> "Too low!", else if guessed > randomNumber -> "Too high!", else -> "Correct!"
+// Increment attempts on each valid guess
+// Stop loop when guessed correctly
+
 const minNumber = 1;
 const maxNumber = 100;
 
