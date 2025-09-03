@@ -23,3 +23,11 @@ listFoods(food1, food2, food3, food4, food5); // Output: Pizza Burger Pasta Sala
 
 const allFoods = getFoods(food1, food2, food3, food4, food5);
 console.log(allFoods); // Output: [ 'Pizza', 'Burger', 'Pasta', 'Salad', 'Sushi' ]
+
+// Another Example with string.join()
+function combineStrings(...strings) {
+    return strings.join(" ");
+}
+
+const combined = combineStrings("Hello", "world!", "This", "is", "JavaScript.");
+console.log(combined); // Output: "Hello world! This is JavaScript."
