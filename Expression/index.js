@@ -57,3 +57,10 @@ console.log(even); // [2, 4]
 // Trong ví dụ này, hàm vô danh được định nghĩa bằng function expression
 // Hàm này được truyền trực tiếp như một đối số cho phương thức map của mảng numbers2
 // Kết quả là một mảng mới chứa các giá trị boolean, true nếu số là chẵn, false nếu số là lẻ
+const sum = numbers2.reduce(function(accumulator, currentValue) {
+    return accumulator + currentValue;
+});
+console.log(sum); // 15
+// Trong ví dụ này, hàm vô danh được định nghĩa bằng function expression
+// Hàm này được truyền trực tiếp như một đối số cho phương thức map của mảng numbers2
+// Kết quả là một giá trị duy nhất, tổng của tất cả các số trong mảng
