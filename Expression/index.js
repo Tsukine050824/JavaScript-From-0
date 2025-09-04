@@ -43,17 +43,17 @@ console.log(cube); // [1, 8, 27, 64, 125]
 // Trong ví dụ này, hàm vô danh được định nghĩa bằng function expression
 // Hàm này được truyền trực tiếp như một đối số cho phương thức map của mảng numbers2
 // Kết quả là một mảng mới chứa các lập phương của các số ban đầu
-const odd = numbers2.map(function(num) {
+const odd = numbers2.filter(function(num) {
     return num % 2 !== 0;
 });
-console.log(odd); // [true, false, true, false, true]
+console.log(odd);  // [1, 3, 5]
 // Trong ví dụ này, hàm vô danh được định nghĩa bằng function expression
 // Hàm này được truyền trực tiếp như một đối số cho phương thức map của mảng numbers2
 // Kết quả là một mảng mới chứa các giá trị boolean, true nếu số là lẻ, false nếu số là chẵn
-const even = numbers2.map(function(num) {
+const even = numbers2.filter(function(num) {
     return num % 2 === 0;
 });
-console.log(even); // [false, true, false, true, false]
+console.log(even); // [2, 4]
 // Trong ví dụ này, hàm vô danh được định nghĩa bằng function expression
 // Hàm này được truyền trực tiếp như một đối số cho phương thức map của mảng numbers2
 // Kết quả là một mảng mới chứa các giá trị boolean, true nếu số là chẵn, false nếu số là lẻ
